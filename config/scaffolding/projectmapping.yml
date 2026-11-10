@@ -11,3 +11,5 @@ runtimes:
   assets:
   - name: MJAN10NovProject.project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
     type: connection
+  - name: MJAN10NovProject.project.mjan10nov.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount
+    type: connection
