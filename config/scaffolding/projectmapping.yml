@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: MJAN10NovProject
 runtimes:
-- runtimeAlias: Cloud Runtime
+- runtimeAlias: Cloud Designtime
   assets:
   - name: fld_131724708_stage00.projects.fl9514a3fb3cc84ede86e0a30930379a21.integrations:ClassicFlow
     type: flow
