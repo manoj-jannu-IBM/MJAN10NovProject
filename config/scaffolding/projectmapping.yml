@@ -7,6 +7,8 @@ runtimes:
     type: connection
   - name: MJAN10NovProject.project.mjan10nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.triggers.polling_notifications.PollingNotification
     type: notification
+  - name: MJAN10NovProject.project.mjan10nov.scheduler:executeNotification
+    type: scheduler
 - runtimeAlias: Cloud Runtime
   assets:
   - name: MJAN10NovProject.project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
