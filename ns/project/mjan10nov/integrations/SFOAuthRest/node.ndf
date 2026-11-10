@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Manoj.Jannu@ibm.com</value>
-    <value name="createdDate">2026-11-10T10:20:42.611711031Z</value>
-    <value name="lastModifiedDate">2026-11-10T10:20:42.611711031Z</value>
+    <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-10T10:21:17.560314572Z</value>
     <value name="displayName">SFOAuthRest</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -108,6 +107,13 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
