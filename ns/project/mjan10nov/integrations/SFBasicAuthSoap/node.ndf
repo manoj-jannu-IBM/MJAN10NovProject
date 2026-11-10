@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-10T09:35:58.987531729Z</value>
+    <value name="lastModifiedDate">2026-11-10T09:42:56.583454850Z</value>
     <value name="displayName">SFBasicAuthSoap</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -115,20 +115,6 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <value name="nodePathForDebug">0</value>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Flow</value>
-          <value name="groupName">flow</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">debugLog</value>
-          <value name="serviceName">pub.flow:debugLog</value>
-          <value name="transformerSupport">true</value>
-        </record>
       </record>
     </record>
     <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
