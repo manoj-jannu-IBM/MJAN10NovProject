@@ -30,6 +30,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: DADA_SSLJMS
+  gitServerName: SIQAGitHubTest_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.mjan10nov.streaming.connections:EmbeddedMessaging
   packages:
