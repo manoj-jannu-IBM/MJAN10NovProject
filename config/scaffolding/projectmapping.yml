@@ -7,3 +7,7 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_131724708_stage00.projects.fl9514a3fb3cc84ede86e0a30930379a21.WmPackageServiceProvider.GB_1:readGlobalvariable
+- runtimeAlias: Cloud Runtime
+  assets:
+  - name: MJAN10NovProject.project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
+    type: connection
