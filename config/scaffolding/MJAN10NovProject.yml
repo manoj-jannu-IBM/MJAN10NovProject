@@ -47,6 +47,9 @@ packages:
   version: 12.0.0.0.25
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmSalesforceRESTProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
   packages:
@@ -68,6 +71,30 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+- serviceName: project.mjan10nov.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount
+  packages:
+  - name: MJAN10NovProject
+    version: "1.0"
+  - name: DADA_ExtendedProperty
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.mjan10nov.integrations:SFBasicAuthSoap
   packages:
   - name: MJAN10NovProject
@@ -88,6 +115,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
   packages:
   - name: MJAN10NovProject
@@ -108,6 +137,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.mjan10nov.streaming.connections:EmbeddedMessaging
   packages:
   - name: MJAN10NovProject
@@ -128,3 +159,5 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
