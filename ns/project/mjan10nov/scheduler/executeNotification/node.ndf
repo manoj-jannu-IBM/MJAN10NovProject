@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">schedulerJob</value>
+  <value name="node_nsName">project.mjan10nov.scheduler:executeNotification</value>
+  <value name="node_pkg">MJAN10NovProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">MJAN10NovProject.project.mjan10nov.scheduler:executeNotification</value>
+  <value name="taskId">365129d0-dd35-11f1-abbd-000000000000</value>
+  <value name="description">Scheduler for polling notification PollingNotification</value>
+  <value name="service">wm.art.ns:executeNotification</value>
+  <value name="runAsUser">Administrator</value>
+  <value name="type">repeat</value>
+  <value name="timeFormat">24hrs</value>
+  <value name="intervalUnit">min</value>
+  <value name="start-date">2026/11/11</value>
+  <value name="start-time">00:03:23</value>
+  <value name="end-date"></value>
+  <value name="end-time"></value>
+  <value name="interval">60</value>
+  <value name="timeZoneOffset">Asia/Calcutta</value>
+  <value name="inputs">eyJub2RlTmFtZSI6InByb2plY3QubWphbjEwbm92LldtSkRCQ0FkYXB0ZXIuY29tX3dtX2FkYXB0ZXJfd21qZGJjX0pEQkNBZGFwdGVyLnRyaWdnZXJzLnBvbGxpbmdfbm90aWZpY2F0aW9uczpQb2xsaW5nTm90aWZpY2F0aW9uIn0=</value>
+  <value name="doNotOverlap">false</value>
+  <value name="target">$any</value>
+  <value name="enabled">false</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Manoj.Jannu@ibm.com</value>
+    <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="createdDate">2026-11-10T18:33:23.961274519Z</value>
+    <value name="lastModifiedDate">2026-11-10T18:33:23.961274519Z</value>
+  </record>
+</Values>
