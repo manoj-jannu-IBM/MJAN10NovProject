@@ -20,6 +20,12 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_GlobalVariable1
+  version: "1.0"
+  gitServerName: SIQAGitHubTest_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: DADA_RefDataDocTypeTests
   gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -38,4 +44,6 @@ services:
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
     version: "1.0"
