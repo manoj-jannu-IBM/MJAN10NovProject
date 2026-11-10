@@ -14,6 +14,12 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQACloudStreamsTests
+  version: "1.0"
+  gitServerName: SIQAGitHubTest_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: DADA_GlobalVariable1
   gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -22,6 +28,8 @@ services:
 - serviceName: project.mjan10nov.streaming.connections:EmbeddedMessaging
   packages:
   - name: MJAN10NovProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
