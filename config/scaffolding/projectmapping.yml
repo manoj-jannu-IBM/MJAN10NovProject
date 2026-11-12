@@ -13,6 +13,8 @@ runtimes:
     type: notification
   - name: MJAN10NovProject.project.mjan10nov.scheduler:executeNotification_1
     type: scheduler
+  - name: MJAN10NovProject.project.mjan10nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount
+    type: connection
 - runtimeAlias: Cloud Runtime
   assets:
   - name: MJAN10NovProject.project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
