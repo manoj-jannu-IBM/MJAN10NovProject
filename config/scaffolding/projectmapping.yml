@@ -15,6 +15,10 @@ runtimes:
     type: scheduler
   - name: MJAN10NovProject.project.mjan10nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount
     type: connection
+- runtimeAlias: samcrt1
+  assets:
+  - name: MJAN10NovProject.project.mjan10nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount
+    type: connection
 - runtimeAlias: Cloud Runtime
   assets:
   - name: MJAN10NovProject.project.mjan10nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
@@ -26,4 +30,6 @@ runtimes:
     stepId: /0
     reference: fld_131724708_stage00.projects.fl9514a3fb3cc84ede86e0a30930379a21.WmPackageServiceProvider.GB_1:readGlobalvariable
   - name: SIQAJDBCAdapterTests.SIQAJDBCAdapterTests.connections.mysqlconnection
+    type: connection
+  - name: MJAN10NovProject.project.mjan10nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount
     type: connection
